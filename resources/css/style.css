@@ -1,8 +1,11 @@
 /* header */
 html {
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
   background-color: white;
-  font-family: "Helvetica", sans-serif;
+}
+
+body {
   line-height: 1.4;
 }
 
@@ -94,7 +97,42 @@ html {
 }
 
 /* philosophy */
+.about {
+  display: inline-flex;
+}
 
-/* appoitnments */
+.philosophy {
+  padding-bottom: 5rem;
+}
+
+#philosophy {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
+
+#description {
+  width: 35%;
+}
+
+#appointments {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#contact {
+  width: 60%;
+}
 
 /* footer */
