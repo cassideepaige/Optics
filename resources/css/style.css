@@ -98,11 +98,12 @@ body {
 
 /* philosophy */
 .about {
-  display: inline-flex;
+  padding-top: 3rem;
 }
 
 .philosophy {
-  padding-bottom: 5rem;
+  position: relative;
+  left: 15rem;
 }
 
 #philosophy {
@@ -115,10 +116,14 @@ body {
   margin-bottom: 1rem;
 }
 
-
-
 #description {
-  width: 35%;
+  width: 25%;
+}
+
+.appointments {
+  position: relative;
+  bottom: 11.8rem;
+  left: 50rem;
 }
 
 #appointments {
@@ -132,7 +137,7 @@ body {
 }
 
 #contact {
-  width: 60%;
+  width: 25%;
 }
 
 /* footer */
