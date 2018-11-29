@@ -103,7 +103,7 @@ body {
 
 .philosophy {
   position: relative;
-  left: 15rem;
+  left: 20rem;
 }
 
 #philosophy {
@@ -123,7 +123,7 @@ body {
 .appointments {
   position: relative;
   bottom: 11.8rem;
-  left: 50rem;
+  left: 45rem;
 }
 
 #appointments {
@@ -141,3 +141,19 @@ body {
 }
 
 /* footer */
+.footer {
+  background-color: azure;
+  color: black;
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  padding: 2rem 4rem;
+}
+
+#black-logo {
+  height: 1.5rem;
+}
+
+.copyright {
+  margin-left: 1rem;
+}
