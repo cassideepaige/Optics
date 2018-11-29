@@ -3,6 +3,7 @@ html {
   font-size: 18px;
   background-color: white;
   font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
 }
 
 .header {
@@ -63,7 +64,34 @@ html {
   top: 10rem;
   left: 43rem;
 }
+
 /* services */
+.services {
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#services {
+  margin: 3rem 4rem;
+}
+
+#exams {
+  height: 5rem;
+  padding-bottom: 2rem;
+}
+
+#fittings {
+  width: 6rem;
+  padding-bottom: 4rem;
+}
+
+#delivery {
+  width: 6rem;
+  padding-bottom: 3.5rem;
+}
 
 /* philosophy */
 
