@@ -68,6 +68,31 @@ body {
   left: 43rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .header-container {
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+
+  .header {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+    height: 22rem;
+  }
+
+  .slogan {
+    position: relative;
+    width: 20rem;
+    font-size: 1.5rem;
+    left: 25rem;
+  }
+
+  .philosophy {
+    position: relative;
+    right: 20rem;
+  }
+}
+
 /* services */
 .services {
   color: black;
@@ -157,3 +182,8 @@ body {
 .copyright {
   margin-left: 1rem;
 }
+
+/* tablets design */
+
+
+/* mobile design */
