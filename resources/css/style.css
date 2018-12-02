@@ -68,25 +68,6 @@ body {
   left: 43rem;
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1500px) {
-  .header-container {
-    width: 100%;
-    position: relative;
-    top: 0;
-  }
-
-  .header {
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
-    height: 22rem;
-  }
-
-  .slogan {
-    position: relative;
-    width: 20rem;
-    font-size: 1.5rem;
-    left: 25rem;
-  }
-}
 
 /* services */
 .services {
@@ -152,13 +133,6 @@ body {
 }
 
 
-@media only screen and (max-width: 1024px) {
-  .about {
-    position: relative;
-    right: 10rem;
-  }
-
-}
 /* footer */
 .footer {
   background-color: azure;
@@ -178,11 +152,3 @@ body {
 }
 
 /* mobile design */
-
-  /* header */
-@media only screen and (min-width: 480px) and (max-width: 560px) {
-  .header {
-    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
-    width: 20%;
-
-}
